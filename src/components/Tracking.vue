@@ -18,18 +18,12 @@
 <script>
 import bulb from '@/assets/images/SVG/bulb.svg'
 import camel from '@/assets/images/Camels2.jpg'
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
   data: function () {
     return {
       image: bulb,
-      image2: camel,
-      components: {
-        VueSlickCarousel
-      }
+      image2: camel
     }
   }
 }
